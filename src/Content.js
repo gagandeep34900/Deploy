@@ -8,7 +8,7 @@ const GameData = Games.map(
             <div className="col-6" key={Games.Item}>
                 <div className="card">
                 
-                    <img src={Games.image} alt="Image of SCP" />
+                    <img src={Games.image} alt="" />
                     <div className="card">
                         <p className="card text-white bg-dark mb-0" >{Games.description}</p>
 
