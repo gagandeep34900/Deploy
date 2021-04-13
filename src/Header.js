@@ -21,9 +21,9 @@ class Header extends Component
   <div className="col-sm-4 offset-md-1 py-4">
     <h4 className="text-white">Contact</h4>
     <ul className="list-unstyled">
-      <li><a  className="text-white">Submitted by Gagandeep Singh</a></li>
-      <li><a  className="text-white">Student ID-30029497</a></li>
-      <li><a  className="text-white">Submitted to Bruce</a></li>
+      <li>Submitted by Gagandeep Singh</li>
+      <li>Student ID-30029497</li>
+      <li>Submitted to Bruce</li>
     </ul>
   </div>
 </div>
@@ -50,7 +50,7 @@ class Header extends Component
   <h1 className="card-header">SCP Files</h1>
   <p className="card-text">The data shown in this application is 5 SCP Files with Iamges</p>
   <div className="card text-white bg-dark mb-3"></div>
-  <img className="card-img-top" src="images/SCP_-_Containment_Breach.jpg"></img>
+  <img className="card-img-top" src="images/SCP_-_Containment_Breach.jpg" alt="SCP Foundation"></img>
   
   
 </div>
